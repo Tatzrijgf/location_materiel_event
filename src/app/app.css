@@ -1,0 +1,38 @@
+.app-toolbar {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  gap: 0.5rem;
+}
+
+.brand {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  margin-inline-start: 1.5rem;
+}
+
+.search-field {
+  width: 260px;
+}
+
+.app-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem;
+  padding: 0.25rem 1rem;
+  background: #fff;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.user {
+  margin-inline-end: 0.75rem;
+  font-size: 0.875rem;
+}
